@@ -38,7 +38,10 @@
     "zustand": "^5.0.14"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/node": "file:tailwindcss-node-4.3.3.tgz",
+    "@tailwindcss/oxide": "file:tailwindcss-oxide-4.3.3.tgz",
+    "@tailwindcss/oxide-linux-x64-gnu": "file:tailwindcss-oxide-linux-x64-gnu-4.3.3.tgz",
+    "@tailwindcss/postcss": "file:tailwindcss-postcss-4.3.3.tgz",
     "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/pg": "^8.20.3",
@@ -47,7 +50,7 @@
     "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.12",
-    "tailwindcss": "^4.3.3",
+    "tailwindcss": "file:tailwindcss-4.3.3.tgz",
     "tsx": "^4.23.5",
     "typescript": "^5"
   }
