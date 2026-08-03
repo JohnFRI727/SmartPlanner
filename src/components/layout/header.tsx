@@ -11,6 +11,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { WorkspaceSelector } from "@/components/layout/workspace-selector";
+import { QuickAdd } from "@/components/tasks/quick-add";
 
 interface HeaderProps {
   onMenuClick: () => void;
@@ -39,6 +41,10 @@ export function Header({ onMenuClick }: HeaderProps) {
       >
         <Menu className="h-5 w-5" />
       </Button>
+
+      <WorkspaceSelector />
+
+      <QuickAdd />
 
       <div className="flex-1" />
 
