@@ -1,59 +1,36 @@
-# SmartPlanner
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Eine moderne, KI-gestützte Planner-App für die Verwaltung von Projekten, Aufgaben, Deadlines und Kalendertermine – mit klarer Trennung zwischen Uni- und Geschäftsbereichen.
+## Getting Started
 
-## Features (geplant)
-
-- 📁 Projekte und Aufgaben mit Unteraufgaben verwalten
-- 🎓 Trennung: Uni vs. Geschäftlich
-- 📅 Kalenderansicht (Tag/Woche/Monat)
-- 🤖 KI-Chat für natürlichsprachliche Planung
-- 📤 Kontextexport (Markdown/JSON) für andere KI-Systeme
-- 🔔 Erinnerungen und Benachrichtigungen
-- 🔒 Datenschutz-first: Volle Kontrolle über eigene Daten
-
-## Tech-Stack
-
-- **Framework:** Next.js 14+ (App Router)
-- **Sprache:** TypeScript
-- **UI:** React + Tailwind CSS + shadcn/ui
-- **Datenbank:** PostgreSQL + Prisma
-- **Auth:** NextAuth.js v5
-- **KI:** Vercel AI SDK (OpenAI / Anthropic / Ollama)
-- **Testing:** Vitest + Playwright
-- **Deployment:** Docker (Self-Hosted)
-
-## Dokumentation
-
-- [Vollständige Spezifikation](docs/spec/SPECIFICATION.md)
-- [Anforderungen](docs/requirements.md)
-- [Architektur & Design](docs/design.md)
-- [Implementierungs-Tasks](docs/tasks.md)
-
-## Projekt-Status
-
-🟡 **Planungsphase** – Spezifikation und Architektur erstellt, Implementierung startet mit Phase 1 (Foundation).
-
-## Schnellstart (nach Implementierung)
+First, run the development server:
 
 ```bash
-# Repository klonen
-git clone <repo-url>
-cd smartplanner
-
-# Dependencies installieren
-npm install
-
-# Datenbank starten
-docker compose up -d postgres
-
-# Prisma Migration
-npx prisma migrate dev
-
-# Development Server
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## Lizenz
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Privates Projekt.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
